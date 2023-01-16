@@ -1,0 +1,17 @@
+create database yoninjas;
+use yoninjas;
+drop table Trainer;
+
+create table Trainer (
+    Id int primary key,
+    Name varchar(50),
+    Address varchar(50),
+    Email varchar(50),
+    Password varchar(50)
+);
+
+insert into Trainer value (1,'Mohak','Delhi','mohak@gmail.com','moh123');
+insert into Trainer value (2,'Sujit','Mumbai','sujit@gmail.com','su123');
+insert into Trainer  value (3,'Shikha','Gorkhpur','shi@gmail.com','shi123');
+
+select * from Trainer;

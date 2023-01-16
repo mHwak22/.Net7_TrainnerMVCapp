@@ -1,0 +1,31 @@
+@using BOL;
+@{
+    ViewData["Title"] = "Index Page";
+}
+<div class="text-center">
+    <h1>YoNinja's</h1>
+    @{
+        List<Trainer> allTainer = (List<Trainer>)ViewData["trainers"];
+
+        <table>
+            <tr>
+                <th>Trainer Id</th>
+                <th>Trainer Name</th>
+                <th>Trainer Adress</th>
+                <th>Trainer Email</th>
+            </tr>
+            @foreach (Trainer trainer in allTainer)
+            {
+                <tr>
+                    <td>@trainer.Id</td>
+                    <td>@trainer.Name</td>
+                    <td>@trainer.Address</td>
+                    <td>@trainer.Email</td>
+                </tr>
+            }
+        </table>
+        <div>
+            <a href="/Trainer/Reg">Add Trainer</a>
+        </div>
+    }
+</div>

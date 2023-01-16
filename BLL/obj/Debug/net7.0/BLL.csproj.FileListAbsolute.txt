@@ -1,0 +1,17 @@
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\bin\Debug\net7.0\BLL.deps.json
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\bin\Debug\net7.0\BLL.dll
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\bin\Debug\net7.0\BLL.pdb
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\obj\Debug\net7.0\BLL.csproj.AssemblyReference.cache
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\obj\Debug\net7.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\obj\Debug\net7.0\BLL.AssemblyInfoInputs.cache
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\obj\Debug\net7.0\BLL.AssemblyInfo.cs
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\obj\Debug\net7.0\BLL.csproj.CoreCompileInputs.cache
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\obj\Debug\net7.0\BLL.dll
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\obj\Debug\net7.0\refint\BLL.dll
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\obj\Debug\net7.0\BLL.pdb
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\obj\Debug\net7.0\ref\BLL.dll
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\bin\Debug\net7.0\BOL.dll
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\bin\Debug\net7.0\DAL.dll
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\bin\Debug\net7.0\BOL.pdb
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\bin\Debug\net7.0\DAL.pdb
+D:\cdac\ExamDotNet\.Net7_TrainnerMVCapp\BLL\obj\Debug\net7.0\BLL.csproj.CopyComplete

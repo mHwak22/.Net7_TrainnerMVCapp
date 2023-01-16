@@ -1,0 +1,14 @@
+@using BOL
+@model Trainer
+
+<div class="text-center">
+    <h1>YoNinja's Trainers REsgistration Form </h1>
+       <form method="post" action="/trainer/Reg">
+       Id <input type="text" name="Id" id="Id" asp-for="Id"><br><br>
+       Name <input type="text" name="Name" id="Name" asp-for="Name"><br><br>
+       Address <input type="text" name="Address" id="Address" asp-for="Address"><br><br>
+       Email <input type="Email" name="Email" id="Email" asp-for="Email"><br><br>
+       <button type="submit" id="btn" name="btn">Submit</button>
+       <button type="reset" id="btn1" name="btn1">Reset</button>
+       </form>
+</div>
