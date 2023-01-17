@@ -36,8 +36,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/cdac/ExamDotNet/.Net7_TrainnerMVCapp/trainnerMVCapp/Views/Trainer/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/cdac/ExamDotNet/.Net7_TrainnerMVCapp/trainnerMVCapp/Views/Trainer/Reg.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxSZWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/cdac/ExamDotNet/.Net7_TrainnerMVCapp/trainnerMVCapp/Views/Trainer/Remove.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxSZW1vdmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/cdac/ExamDotNet/.Net7_TrainnerMVCapp/trainnerMVCapp/Views/_ViewImports.cshtml]

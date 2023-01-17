@@ -21,9 +21,9 @@ public class TrainerController : Controller
     {
         Admin admin = new Admin();
         List<Trainer> trainers = admin.GetAllTrainers();
-        this.ViewData["trainers"]= trainers;
+        this.ViewData["trainers"] = trainers;
         return View();
-    
+
     }
 
     public IActionResult Reg()
@@ -33,12 +33,53 @@ public class TrainerController : Controller
     [HttpPost]
     public IActionResult Reg(Trainer trainer)
     {
-       Admin tr = new Admin();
-       if(tr.AddTrainer(trainer)){
-        return RedirectToAction("Index");
-       }
-       return View();
+        Admin tr = new Admin();
+        if (tr.AddTrainer(trainer))
+        {
+            return RedirectToAction("Index");
+        }
+        return View();
     }
 
-   
+public IActionResult Remove()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult Remove(int id)
+    {
+
+        Admin admin = new Admin();
+       
+            if (admin.DeleteTrainer(id))
+            {
+                return RedirectToAction("Index");
+            }
+      
+        return View();
+    }
+
+    public IActionResult Login()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult Login(string Email, string Password)
+    {
+
+        Admin admin = new Admin();
+        List<Trainer> trainers = admin.GetAllTrainers();
+        foreach (Trainer trs in trainers)
+        {
+            if (trs.Email.Equals(Email) && trs.Password.Equals(Password))
+            {
+                return RedirectToAction("Index");
+            }
+        }
+        return View();
+    }
+
+    
 }

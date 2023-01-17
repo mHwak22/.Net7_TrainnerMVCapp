@@ -1,0 +1,12 @@
+@using BOL
+@model Trainer
+
+<div class="text-center" style="border: 2px solid red;">
+    <h1>Trainers Login Page</h1>
+       <form method="post" action="/trainer/Login">
+       Email <input type="Email" name="Email" id="Email" asp-for="Email"><br><br>
+       Password <input type="password" name="Password" id="Password" asp-for="Password"><br><br>
+       <button type="submit" id="btn" name="btn">Login</button>
+       <button type="reset" id="btn1" name="btn1">Reset</button>
+       </form>
+</div>

@@ -16555,6 +16555,11 @@
   "RootNamespace": "trainnerMVCapp",
   "Documents": [
     {
+      "FilePath": "d:\\cdac\\ExamDotNet\\.Net7_TrainnerMVCapp\\trainnerMVCapp\\Views\\Trainer\\Login.cshtml",
+      "TargetPath": "Views\\Trainer\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\cdac\\ExamDotNet\\.Net7_TrainnerMVCapp\\trainnerMVCapp\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
@@ -16592,6 +16597,11 @@
     {
       "FilePath": "d:\\cdac\\ExamDotNet\\.Net7_TrainnerMVCapp\\trainnerMVCapp\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\cdac\\ExamDotNet\\.Net7_TrainnerMVCapp\\trainnerMVCapp\\Views\\Trainer\\Remove.cshtml",
+      "TargetPath": "Views\\Trainer\\Remove.cshtml",
       "FileKind": "mvc"
     },
     {
